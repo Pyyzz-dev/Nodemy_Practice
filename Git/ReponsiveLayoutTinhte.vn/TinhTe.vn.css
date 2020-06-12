@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+}
+.container{
+    width: 100%;
+}
+.row{
+    width: 100%;
+}
+.block0{
+    height: 200px;
+}
+.block1 .col-6{
+    height: 500px;
+}
+.block1 .commercial .image1{
+    height: 350px;
+    background-image: url("../../VsCode/Picture/FCup2020.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1 .commercial .image2{
+    height: 350px;
+    background-image: url("../../VsCode/Picture/DPandDP.JPG");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.block1 .commercial .title{
+    height: 150px;
+    background-color: darkslategrey;
+}
+.block2 .col-4 {
+    height: 300px;
+}
+.block2 .col-4 .image{
+    height: 200px;
+}
+.block2 .col-4 .title{
+    height: 100px;
+}
+.block3 .row{
+    height: 200px;
+}
+.block3 .col-12{
+    height: 100px;
+}
+.block3 .commercialfix{
+    height: 80px;
+}
