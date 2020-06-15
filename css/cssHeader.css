@@ -184,4 +184,75 @@ margin: 0;
        font-size: 0.8rem;
    }
   }
+  /* css body TinhTe NDP */
+div, p{
+    border: 1px solid black;
+}
+
+
+div .ias{
+    border: 0px;
+}
+.block1 .quangcao{
+    height: 200px;
+}
+.block2 .col-6{
+    height: 650px;
+}
+.block2 .anhSanpham{
+    height: 400px;
+}
+.block2 .contentSanpham{
+    height: 250px;
+}
+.block2 .col-4{
+    height: 400px;
+}
+.block2 .icon{
+    height: 100px;
+}
+.block2 .seeFeed{
+    height: 100px;
+}
+.block2 .iconAndseeFeed{
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.block2 .has{
+    height: 300px;
+}
+.block2 .hashtagandseemore{
+    height: 75px;
+}
+.block2 .scroll{
+    height: 225px;
+}
+.block2 .quangcaoandList{
+    min-height: 1130px;
+}
+.block2 .quangcaoandList .quangcao{
+    height: 300px;
+}
+.block2 .quangcaoandList .quangcao .contentquangcao{
+    border-radius: 30px;
+}
+.block2 .quangcaoandList .khoangtrong{
+    height: 30px;
+}
+.block2 .quangcaoandList .listCongDong{
+    min-height: 800px;
+}
+.block2 .contentQuestion{
+    height: 240px;
+}
+.block2 .contentradius{
+    border-radius: 30px;
+}
+.block2 .news p{
+    height: 30px;
+}
+.block2 .contentNew{
+    min-height: 777px;
+    border-radius: 30px;
+}
 
