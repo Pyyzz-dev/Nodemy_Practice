@@ -2,17 +2,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
 }
+ html{
+     font-size: 0.625rem;
+ }
 
 .search{
     height: 80px;
+    font-size: 1.4rem;
 }
 
 .menu{
     background-color: #000033;
+    font-size: 1.4rem;
 }
 .header{
-    background-color: #000066;
+    background-color: #272742;
 }
 .logo img{
     height: 60px;
@@ -82,7 +88,6 @@ width: 100%;
 }
 .header-mobile{
     background-color: #000033;
-  
 }
 
 .header-mobile .row{
@@ -93,7 +98,10 @@ margin: 0;
     width: 40px;
     border-radius: 10px;
 }
-
+.test{
+    margin: 0 !important;
+    padding: 0 !important;
+}
 .header-mobile p{
     padding: 0;
     margin: 0;
@@ -104,6 +112,7 @@ margin: 0;
 .header-mobile .col-4{
     padding: 0;
 }
+
 /* footer */
 .footer{
     background-color:hsla(222,25%,20%,1);
@@ -166,3 +175,13 @@ margin: 0;
         min-width: 50% !important ;
     }
 } 
+
+@media only screen and (max-width: 800px) {
+   .menu{
+       font-size: 0.8rem;
+   }
+   .search{
+       font-size: 0.8rem;
+   }
+  }
+
