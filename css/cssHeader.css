@@ -155,16 +155,14 @@ margin: 0;
     padding: 10px;
     font-size: 13px;
 }
-@media only screen and (max-width: 400px) {
-    .contactbox{
-        width: 50% !important;
-        min-width: 100% !important ;
-        padding: 15px !important;
-    }
-}
-@media only screen and (max-width: 400px) {
+
+@media only screen and (max-width: 770px) {
     .title{
         width: 50% !important;
         min-width: 100% !important ;
     }
-}
+    .contactbox{
+        width: 50% !important;
+        min-width: 50% !important ;
+    }
+} 
