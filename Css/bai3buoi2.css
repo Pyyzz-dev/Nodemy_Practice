@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul li{
+    width: 250px;
+    height: 30px;
+    /* CHẤM ĐẦU DÒNG */
+    list-style: none; 
+    background-color: chartreuse;
+    margin: 1px;
+    
+}
+ul li:hover{
+    background-color: seagreen;
+    color: white;
+    position: relative;
+}
+
+.sub-menu{
+    position: absolute;
+    left: 250px;
+    margin: 0;
+   display: none;
+    top: 0;
+    color: black;
+}
+ul li:hover .sub-menu{
+    display: block;
+}

@@ -1,0 +1,129 @@
+
+
+.container{
+    width: 700px;
+    margin: auto;
+}
+.header{
+   height: 30px;
+   background-color: rgb(127, 216, 201);
+   margin-bottom: 3px;
+}
+
+.nav{
+    height: 200px;
+   
+}
+.nav p{
+    text-align: center;
+    
+}
+
+.index{
+    float: left;
+    width: 30%;
+    height: 100%;
+    background-color: seagreen;
+}
+.section{
+    float: left;
+    height: 100px;
+    width: 70%;
+    height: 100%;
+    flex-direction: row;
+}
+.s1{
+    height: 70%;
+    background-color: yellow;
+    margin-left: 3px;
+}
+.s2{
+    height: 29%;
+    background-color:tomato ;
+    margin-left: 3px;
+    margin-top: 3px;
+}
+.footer{
+    height: 60px;
+    background-color: yellow;
+    margin-top: 4px;
+}
+
+/* -------- */
+.border{
+    border: solid;
+}
+.header2{
+ background-color: turquoise;
+ height: 50px;
+}
+.content2{
+    height: 300px;
+    border-top: 0;
+    border-bottom: 0;
+    background-color: rgb(240, 178, 158);
+}
+.menu{
+    width: 20%;
+    border-top: 0;
+    border-left: 0;
+    height: 300px;
+    float: left;
+}
+.recent{
+    width: 19%;
+    border-top: 0;
+    border-left: 0;
+    height: 300px;
+    float: left;
+  
+    
+}
+.area{
+    position: relative;
+    width: 60%;
+    border-left: 0;
+    border-right: solid;
+    height: 300px;
+    float: left;
+}.footer2{
+
+  background-color: turquoise;
+  height: 50px;
+
+}
+.header2 p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+   margin-top: 11px;
+}
+.footer2 p{
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+}
+.text p{
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.textnormal{
+    position: absolute;
+    text-align:  center;
+}
+a{
+    margin: 3px;
+    padding: 44px;
+}
+
+
+
+
+
+
+
+
+
+
