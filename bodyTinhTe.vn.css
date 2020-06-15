@@ -15,6 +15,12 @@ div .ias{
 .block2 .col-6{
     height: 650px;
 }
+.block2 .anhSanpham{
+    height: 400px;
+}
+.block2 .contentSanpham{
+    height: 250px;
+}
 .block2 .col-4{
     height: 400px;
 }
