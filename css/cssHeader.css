@@ -187,7 +187,7 @@ margin: 0;
   /* css body TinhTe NDP */
 div, p{
     border: 1px solid black;
-}
+} 
 
 
 div .ias{
@@ -254,5 +254,62 @@ div .ias{
 .block2 .contentNew{
     min-height: 777px;
     border-radius: 30px;
+}
+
+/* css bodytinhte CBM */
+
+.block3{
+    height: 500px;
+    
+}
+.thaoluan{
+    height: 500px;
+    
+}
+
+
+
+.content-discuss{
+    height: 125px;
+}
+
+.hot{
+    height: 200px;
+}
+
+.special{
+    height: 100%;
+}
+.text-ct{
+    height: 50px;
+}
+.hot-inday{
+    height: 250px;
+}
+
+.noibat{
+    height: 250px;
+}
+
+.block4{
+    
+}
+
+.block4-header{
+    height: 150px;
+}
+
+
+.block4-img{
+    margin: 0;
+    padding-top: 10px;
+    
+
+}
+
+
+.img-block4{
+    
+    padding: 10px;
 }
 
