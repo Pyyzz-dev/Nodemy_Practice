@@ -95,7 +95,7 @@ div .ias{
     background-size: cover; 
 }
 .block2 .icon{
-    height: 100px;
+    height: 200px;
 }
 .block2 .seeFeed{
     height: 100px;
@@ -104,6 +104,46 @@ div .ias{
     border-bottom-right-radius: 30px;
     border-bottom-left-radius: 30px;
 }
+.block2 .ias .iconAndseeFeed .icons{
+    height: 65%;
+}
+.block2 .ias .iconAndseeFeed .contenticons{
+    height: 30%;
+}
+
+.block2 .ias .iconAndseeFeed .icons5{
+    width: 60%;
+}
+.block2 .ias .iconAndseeFeed .iconsSub{
+    width: 20%;
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .span2{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    height: 100%;
+    width: 20%;
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh1{
+    background-image: url("../../VsCode/Picture/icon1TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh2{
+    background-image: url("../../VsCode/Picture/icon2TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh3{
+    background-image: url("../../VsCode/Picture/icon3TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh4{
+    background-image: url("../../VsCode/Picture/icon4TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .icons .icons5 .anh5{
+    background-image: url("../../VsCode/Picture/icon5TinhTe.png");
+}
+.block2 .ias .iconAndseeFeed .contenticons .icons5 .span2{
+    height: 100%;
+    width: 20%;
+}
+
 .block2 .has{
     min-height: 300px;
 }
@@ -138,6 +178,13 @@ div .ias{
 }
 .block2 .quangcaoandList .quangcao .contentquangcao{
     border-radius: 30px;
+}
+
+.block2 .quangcaoandList .quangcao .contentquangcao .commercial{
+    background-image: url("../../VsCode/Picture/quangcaoTinhTe2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .block2 .quangcaoandList .khoangtrong{
     height: 30px;
