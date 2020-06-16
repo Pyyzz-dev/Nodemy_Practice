@@ -76,7 +76,7 @@ div .ias{
     height: 100px;
     font-size: 20px;
 }
-.block2 .col-4{
+.block2 .sanpham .col-4{
     height: 400px;
     background-color: rgb(25, 36, 51);
 }
@@ -97,13 +97,13 @@ div .ias{
     border-bottom-left-radius: 30px;
 }
 .block2 .has{
-    height: 300px;
+    min-height: 300px;
 }
 .block2 .hashtagandseemore{
     height: 75px;
 }
 .block2 .scroll{
-    height: 2;
+    min-height: 300px;
 }
 .block2{
     min-height: 1130px;
@@ -112,7 +112,7 @@ div .ias{
     min-height: 2000px;
 }
 .block2 .listscroll{
-    height: 200px;
+    min-height: 200px;
     overflow-x: scroll;
     overflow-y: hidden;
     white-space: nowrap;
@@ -162,6 +162,11 @@ div .ias{
 .block2 .buttonSeemore{
     height: 60px;
 }
+.block2  .seemore button{
+    font-size: 20px;
+    background-color: red;
+    color: white;
+}
 
 .block2 .buttonSeemore .daddya a{
     position: absolute;
@@ -174,6 +179,26 @@ div .ias{
     left: 50%;
     transform: translateX(-50%) translateY(-50%);
 }
+
+.block2 .contentchau{
+    height: 130px;
+}
+.block2 .contentchau .col-10{
+    border-radius: 20px;
+}
+.block2 .contentchau .col-10 .title{
+    height: 30%;
+}
+.block2 .contentchau .col-10 .content{
+    height: 70%;
+}
+
+.block2 .contentchau .avatar{
+    height: 60px;
+    width: 60px;
+    border-radius: 30px;
+}
+
 .block2 .textAtaiappTinhTe{
     font-size: 25px;
 }
