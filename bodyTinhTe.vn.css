@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-div, p{
+div, p, a{
     border: 1px solid black;
 }
 div .ias{
@@ -43,8 +43,14 @@ div .ias{
 .block2 .scroll{
     height: 225px;
 }
-.block2 .quangcaoandList{
+/* .block2{
     min-height: 1130px;
+} */
+.block2 .qal{
+    min-height: 2000px;
+}
+.block2 .quangcaoandList{
+    min-height: 2000px;
 }
 .block2 .quangcaoandList .quangcao{
     height: 300px;
@@ -56,7 +62,7 @@ div .ias{
     height: 30px;
 }
 .block2 .quangcaoandList .listCongDong{
-    min-height: 800px;
+    min-height: 500px;
 }
 .block2 .contentQuestion{
     height: 240px;
@@ -68,6 +74,59 @@ div .ias{
     height: 30px;
 }
 .block2 .contentNew{
-    min-height: 777px;
+    min-height: 500px;
     border-radius: 30px;
+}
+.block2 .contentCongdong{
+    height: 70px;
+}
+.block2 .sanphamCongdong{
+    min-height: 500px;
+}
+.block2 .sanphamCDcon{
+    min-height: 450px;
+}
+.block2 .buttonSeemore{
+    height: 60px;
+}
+
+.block2 .buttonSeemore .daddya a{
+    position: absolute;
+    text-align: center;
+    font-size: 30px;
+    background-color: black;
+    border-radius: 5px;
+    height: 60px;
+    width: 200px;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.block2 .textAtaiappTinhTe{
+    font-size: 25px;
+}
+.block2 .textPtaiappTinhTe{
+    font-size: 20px;
+}
+.block2 .taiAppTinhte .imgquangcao{
+    height: 200px;
+}
+.block2 .linkgoogleandappstore{
+    height: 80px;
+    background-color: whitesmoke;
+    border-bottom-right-radius: 25px ;
+    border-bottom-left-radius: 25px ;
+}
+.block2 .linkgoogle{
+    width: 150px;
+    height: 50px;
+}
+.block2 .linkappstore{
+    width: 150px;
+    height: 50px;
+}
+.block2 .thongkeAnhEmtichcuc a{
+    font-size: 25px;
+}
+.block2 .thongkeAnhEmtichcuc .listAnhEmtichcuc{
+    height: 350px;
 }
