@@ -14,15 +14,77 @@ div .ias{
 }
 .block2 .col-6{
     height: 650px;
+    background-color: rgb(25, 36, 51);
 }
-.block2 .anhSanpham{
-    height: 400px;
+.block2 .col-6 .anhSanpham1{
+    height: 500px;
+    background-image: url("../../VsCode/Picture/Tinhte2.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
 }
-.block2 .contentSanpham{
-    height: 250px;
+.block2 .col-6 .contentSanpham1{
+    height: 150px;
+    font-size: 30px;
+}
+.block2 .col-6 .anhSanpham2{
+    height: 500px;
+    background-image: url("../../VsCode/Picture/Tinhte4.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+}
+.block2 .col-6 .contentSanpham2{
+    height: 150px;
+    font-size: 30px;
+}
+.block2 .col-4 .anhSanpham1{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte1.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham1{
+    height: 100px;
+    font-size: 20px;
+}
+.block2 .col-4 .anhSanpham2{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte3.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham2{
+    height: 100px;
+    font-size: 20px;
+}
+.block2 .col-4 .anhSanpham3{
+    height: 300px;
+    background-image: url("../../VsCode/Picture/Tinhte5.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    border-radius: 15px;
+} 
+.block2 .col-4 .contentSanpham3{
+    height: 100px;
+    font-size: 20px;
 }
 .block2 .col-4{
     height: 400px;
+    background-color: rgb(25, 36, 51);
+}
+.block2 .ias{
+    background-image: url("../../VsCode/Picture/bgTinhte1.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 .block2 .icon{
     height: 100px;
@@ -41,13 +103,24 @@ div .ias{
     height: 75px;
 }
 .block2 .scroll{
-    height: 225px;
+    height: 2;
 }
-/* .block2{
+.block2{
     min-height: 1130px;
-} */
+}
 .block2 .qal{
     min-height: 2000px;
+}
+.block2 .listscroll{
+    height: 200px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+}
+.block2 .listscroll .scrollimg{
+    display: inline-block;
+    height: 100%;
+    width: 150px;
 }
 .block2 .quangcaoandList{
     min-height: 2000px;
