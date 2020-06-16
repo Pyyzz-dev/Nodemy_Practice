@@ -12,6 +12,14 @@ div .ias{
 .block1 .quangcao{
     height: 200px;
 }
+.block1 .quangcao .img{
+    height: 150px;
+    background-image: url("../../VsCode/Picture/quangcaoTinhTe.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+    top: 50%;
+}
 .block2 .col-6{
     height: 650px;
     background-color: rgb(25, 36, 51);
@@ -100,7 +108,7 @@ div .ias{
     min-height: 300px;
 }
 .block2 .hashtagandseemore{
-    height: 75px;
+    height: 100px;
 }
 .block2 .scroll{
     min-height: 300px;
@@ -147,7 +155,7 @@ div .ias{
     height: 30px;
 }
 .block2 .contentNew{
-    min-height: 500px;
+    min-height: 1200px;
     border-radius: 30px;
 }
 .block2 .contentCongdong{
