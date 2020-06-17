@@ -3,14 +3,26 @@
     padding: 0;
     box-sizing: border-box;
 }
-div, p, a{
+/* div, p, a{
     border: 1px solid black;
-}
-/* .demo{
-    height: 100%;
-    margin: -2px 0 0 0;
 } */
 
+div .inset-shadow{
+    width: 100%;
+    height: 100%;
+    margin: 10px;
+    background-color: #ccc;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+}
+.taiAppTinhte .inset-shadow , .listCongDong .inset-shadow{
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.questionandnews .inset-shadow{
+    border-radius: 25px;
+}
 div .ias{
     border: 0px;
 }
@@ -204,9 +216,7 @@ div .ias{
     overflow-y: hidden;
     white-space: nowrap;
 }
-/* .listscroll > *{
-    margin-right: -5px !important;
-} */
+
 .scrollimg .scrollingcon{
     border-top:2px solid black;
     border-bottom:2px solid black;
