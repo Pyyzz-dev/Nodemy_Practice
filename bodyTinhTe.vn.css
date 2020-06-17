@@ -264,7 +264,7 @@ div .ias{
     height: 30px;
 }
 .block2 .contentNew{
-    min-height: 1200px;
+    min-height: 2000px;
     border-radius: 30px;
 }
 .block2 .contentCongdong{
@@ -338,6 +338,9 @@ div .ias{
 .block2 .linkappstore{
     width: 150px;
     height: 50px;
+}
+.block2 .thongkeAnhEmtichcuc{
+    height: 800px;
 }
 .block2 .thongkeAnhEmtichcuc a{
     font-size: 25px;
