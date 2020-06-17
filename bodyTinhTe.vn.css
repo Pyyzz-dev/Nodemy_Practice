@@ -6,6 +6,11 @@
 div, p, a{
     border: 1px solid black;
 }
+/* .demo{
+    height: 100%;
+    margin: -2px 0 0 0;
+} */
+
 div .ias{
     border: 0px;
 }
@@ -142,6 +147,7 @@ div .ias{
 .block2 .ias .iconAndseeFeed .contenticons .icons5 .span2{
     height: 100%;
     width: 20%;
+    font-size: 30px;
 }
 
 .block2 .has{
@@ -152,6 +158,39 @@ div .ias{
 }
 .block2 .scroll{
     min-height: 300px;
+}
+.block2 .scrollingconmain{
+    position: relative;
+    background-image: linear-gradient(45deg, rgb(245, 78, 162), rgb(255, 118, 118));;
+    border-radius: 20px;
+}
+.block2 .scrollingconmain .personmore .iconplus{
+    height: 30%;
+    width: 30%;
+    border-radius: 10px;
+    background-color: hsla(180,100%,55%,1);
+    float: right;
+}
+.block2 .scrollingconmain .personmore .iconplus i{
+    font-size: 23px;
+}
+
+.block2 .scrollingconmain .avataricontext{
+    position: absolute;
+    left: 50%; 
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.block2 .scrollingconmain .personmore{  
+    background-image: url("../../VsCode/Picture/avatarTinhTe.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsla(188,100%,42%,1);
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
 }
 .block2{
     min-height: 1130px;
@@ -165,7 +204,17 @@ div .ias{
     overflow-y: hidden;
     white-space: nowrap;
 }
+/* .listscroll > *{
+    margin-right: -5px !important;
+} */
+.scrollimg .scrollingcon{
+    border-top:2px solid black;
+    border-bottom:2px solid black;
+    margin-top:2px
+}
 .block2 .listscroll .scrollimg{
+    margin: -1px;
+    margin-right: 10px;
     display: inline-block;
     height: 100%;
     width: 150px;
