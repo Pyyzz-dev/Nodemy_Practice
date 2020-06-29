@@ -374,12 +374,16 @@ div .ias {
 
 .article-text span {
     word-wrap: break-word;
+    color: black;
 }
 
+.article a {
+    text-decoration: none !important;
+}
 
-/* .article-text {
-    width: 100px;
-} */
+.article-text span:hover {
+    color: #00BAD6 !important;
+}
 
 .img-bg-1 {
     background-image: url(../img/article-1.jpg);
@@ -467,9 +471,30 @@ div .ias {
     position: relative;
 }
 
-@media only screen and (max-width: 900px) {
+.main2-block5 .heading-content a {
+    text-decoration: none;
+    color: black;
+    font: 'Roboto';
+}
+
+.main2-block5 .heading-content a:hover {
+    color: #39F1E9;
+}
+
+.main2-block5 .body-content .header-upper a {
+    text-decoration: none;
+    color: black;
+    font: 'Roboto';
+}
+
+.main2-block5 .body-content .header-upper a:hover {
+    color: #39F1E9;
+}
+
+@media only screen and (max-width: 992px) {
     .main2-block5 {
         margin-top: 20px;
+        border-top: 1px solid #e8e8e8;
     }
 }
 
